@@ -17,6 +17,14 @@ KaixuOneDark/
 ├── discord/
 │   ├── KaixuOneDark.css           # Discord theme
 │   └── logo.jpg                   # Theme logo
+├── chrome-brave/
+│   ├── manifest.json              # Chrome/Brave extension config
+│   ├── theme.css                  # Main theme styles
+│   ├── content.js                 # Content script
+│   ├── popup.html                 # Extension popup
+│   ├── popup.js                   # Popup functionality
+│   ├── icons/                     # Extension icons
+│   └── README.md                  # Extension documentation
 └── README.md                      # This file
 ```
 
@@ -41,6 +49,13 @@ KaixuOneDark/
 4. Click "Open Themes Folder"
 5. Paste the CSS file
 6. Enable the theme in Discord
+
+### Chrome/Brave
+1. Open Chrome/Brave and go to `chrome://extensions/`
+2. Enable "Developer mode" in the top right
+3. Click "Load unpacked" and select the `chrome-brave` folder
+4. The extension will appear in your extensions list
+5. Click the extension icon to toggle the dark theme on/off
 
 ## 🎯 Color Palette
 

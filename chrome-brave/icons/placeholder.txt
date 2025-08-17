@@ -1,0 +1,16 @@
+Extension Icons Placeholder
+
+This directory should contain the following icon files for the Chrome/Brave extension:
+
+- icon16.png (16x16 pixels)
+- icon32.png (32x32 pixels) 
+- icon48.png (48x48 pixels)
+- icon128.png (128x128 pixels)
+
+You can create these icons using any image editing software or online icon generators.
+The icons should represent the KaixuOneDark theme with the characteristic dark colors and possibly the "K" logo.
+
+Recommended colors for the icons:
+- Background: #16191d
+- Accent: #e05561 (red) or #4aa5f0 (blue)
+- Text: #abb2bf (light gray)
