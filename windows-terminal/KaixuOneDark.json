@@ -1,0 +1,23 @@
+{
+    "background": "#16191d",
+    "black": "#3f4451",
+    "blue": "#4aa5f0",
+    "brightBlack": "#4f5666",
+    "brightBlue": "#4dc4ff",
+    "brightCyan": "#4cd1e0",
+    "brightGreen": "#a5e075",
+    "brightPurple": "#de73ff",
+    "brightRed": "#ff616e",
+    "brightWhite": "#e6e6e6",
+    "brightYellow": "#f0a45d",
+    "cursorColor": "#528bff",
+    "cyan": "#42b3c2",
+    "foreground": "#abb2bf",
+    "green": "#8cc265",
+    "name": "KaixuOneDark",
+    "purple": "#c162de",
+    "red": "#e05561",
+    "selectionBackground": "#abb2bf",
+    "white": "#d7dae0",
+    "yellow": "#d18f52"
+}
