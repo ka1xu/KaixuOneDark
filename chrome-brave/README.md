@@ -1,38 +1,28 @@
 # KaixuOneDark Theme for Chrome/Brave
 
-A dark theme extension for Chrome and Brave browsers based on the OneDark Pro Night Flat color palette.
+A simple browser UI theme (not a content-script extension) for Chrome and Brave based on the OneDark Pro Night Flat palette.
 
-## 🎨 Features
+## 🎨 What it themes
 
-- **Dark Theme**: Applies a consistent dark theme to all websites
-- **OneDark Pro Colors**: Uses the same color palette as VS Code theme
-- **Easy Toggle**: Simple on/off switch in the extension popup
-- **Persistent Settings**: Remembers your preference across browser sessions
-- **Comprehensive Styling**: Covers forms, tables, code blocks, and more
+- **Frame/Toolbar/Tabs**: Browser chrome (window frame, toolbar background, tab text)
+- **Omnibox**: Address bar background and text
+- **NTP**: New Tab Page base colors (where applicable)
 
-## 🚀 Installation
-
-### Method 1: Load as Unpacked Extension (Development)
+## 🚀 Install (unpacked theme)
 
 1. Download or clone this repository
 2. Open Chrome/Brave and go to `chrome://extensions/`
-3. Enable "Developer mode" in the top right
+3. Enable "Developer mode" (top right)
 4. Click "Load unpacked" and select the `chrome-brave` folder
-5. The extension will appear in your extensions list
-
-### Method 2: Install from Chrome Web Store (Coming Soon)
-
-*Note: This extension will be published to the Chrome Web Store soon.*
+5. The theme applies to the browser UI instantly
 
 ## 📖 Usage
 
-1. **Enable/Disable**: Click the extension icon in your browser toolbar
-2. **Toggle Theme**: Use the switch in the popup to enable/disable the dark theme
-3. **Keyboard Shortcut**: Press Space or Enter in the popup to toggle quickly
+- To revert: `chrome://settings/appearance` → Theme → Reset to default
 
 ## 🎯 Color Palette
 
-The theme uses the KaixuOneDark color palette:
+The browser UI uses the KaixuOneDark palette:
 
 - **Background**: `#16191d`
 - **Foreground**: `#abb2bf`
@@ -45,38 +35,23 @@ The theme uses the KaixuOneDark color palette:
 - **Orange**: `#d19a66`
 - **Pink**: `#c678dd`
 
-## 🔧 Customization
+## 🔧 Customize
 
-You can customize the theme by editing the `theme.css` file:
+Edit `manifest.json` color values under `theme.colors` and reload in `chrome://extensions/`.
 
-1. Open `chrome-brave/theme.css`
-2. Modify the CSS variables in the `:root` section
-3. Reload the extension in `chrome://extensions/`
-
-## 📁 File Structure
+## 📁 Files
 
 ```
 chrome-brave/
-├── manifest.json          # Extension configuration
-├── theme.css              # Main theme styles
-├── popup.html             # Extension popup interface
-├── popup.js               # Popup functionality
-├── icons/                 # Extension icons (16x16, 32x32, 48x48, 128x128)
+├── manifest.json          # Theme manifest with colors
 └── README.md              # This file
 ```
 
 ## 🐛 Troubleshooting
 
-### Theme not applying to some sites
-Some websites use strict Content Security Policy (CSP) that may block the theme. This is normal and expected behavior for security reasons.
-
-### Extension not working
-1. Make sure the extension is enabled in `chrome://extensions/`
-2. Try refreshing the page
-3. Check if the site has its own dark mode that conflicts
-
-### Performance issues
-The theme is lightweight and shouldn't affect performance. If you experience issues, try disabling the extension for specific sites.
+### Theme didn’t load
+- Ensure you loaded the `chrome-brave` folder via "Load unpacked"
+- Confirm `manifest.json` contains a `theme` block
 
 ## 🤝 Contributing
 
