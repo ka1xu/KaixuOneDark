@@ -45,6 +45,13 @@ KaixuOneDark/
 5. Paste the CSS file
 6. Enable the theme in Discord
 
+### OBS Studio
+1. Open OBS Studio
+2. Go to `Settings` → `Appearance`
+3. Click `Theme` dropdown → `Import` (folder icon)
+4. Select `obs/KaixuOneDark.obt` (main theme)
+5. Optionally import `obs/Kaixu.ovt` if you want the variant
+
 ### Chrome/Brave (Browser UI Theme)
 1. Open Chrome/Brave and go to `chrome://extensions/`
 2. Enable "Developer mode" (top right)
